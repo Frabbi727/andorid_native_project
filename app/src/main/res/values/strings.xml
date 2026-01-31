@@ -1,3 +1,73 @@
 <resources>
-    <string name="app_name">android_native_project</string>
+    <!-- App Name -->
+    <string name="app_name">MVVM Template</string>
+
+    <!-- Navigation & Screens -->
+    <string name="home_title">Home</string>
+    <string name="posts_title">Posts</string>
+    <string name="post_detail_title">Post Detail</string>
+    <string name="users_title">Users</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_welcome">Welcome to MVVM Template</string>
+    <string name="home_description">A production-ready Android template with best practices</string>
+    <string name="home_explore_posts">Explore Posts</string>
+    <string name="home_view_users">View Users</string>
+    <string name="home_app_settings">App Settings</string>
+
+    <!-- Post List Screen -->
+    <string name="posts_subtitle">Browse all posts</string>
+    <string name="post_by">By User #%1$d</string>
+    <string name="posts_empty">No posts available</string>
+    <string name="posts_empty_description">Pull to refresh to load posts</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_author">Author</string>
+    <string name="post_content">Content</string>
+
+    <!-- User List Screen -->
+    <string name="users_subtitle">All registered users</string>
+    <string name="user_email">Email: %1$s</string>
+    <string name="user_phone">Phone: %1$s</string>
+    <string name="user_website">Website: %1$s</string>
+    <string name="users_empty">No users available</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_language">Language</string>
+    <string name="settings_language_description">Choose your preferred language</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_architecture">Architecture: MVVM + Clean Architecture</string>
+    <string name="settings_features">Features: Offline-first, Localization, Type-safe navigation</string>
+
+    <!-- Languages -->
+    <string name="language_english">English</string>
+    <string name="language_bangla">বাংলা (Bangla)</string>
+
+    <!-- Common UI Elements -->
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="refresh">Refresh</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Error Messages -->
+    <string name="error_generic">An error occurred</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_server">Server error. Please try again later.</string>
+    <string name="error_unknown">An unexpected error occurred</string>
+    <string name="error_no_data">No data available</string>
+    <string name="error_load_failed">Failed to load data</string>
+
+    <!-- Success Messages -->
+    <string name="success_refresh">Data refreshed successfully</string>
+    <string name="success_language_changed">Language changed successfully</string>
+
+    <!-- Offline Mode -->
+    <string name="offline_mode">Offline Mode</string>
+    <string name="showing_cached_data">Showing cached data</string>
+    <string name="data_may_be_outdated">Data may be outdated</string>
 </resources>

@@ -1,0 +1,73 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MVVM টেমপ্লেট</string>
+
+    <!-- Navigation & Screens -->
+    <string name="home_title">হোম</string>
+    <string name="posts_title">পোস্ট</string>
+    <string name="post_detail_title">পোস্ট বিস্তারিত</string>
+    <string name="users_title">ব্যবহারকারী</string>
+    <string name="settings_title">সেটিংস</string>
+
+    <!-- Home Screen -->
+    <string name="home_welcome">MVVM টেমপ্লেটে স্বাগতম</string>
+    <string name="home_description">সর্বোত্তম অনুশীলন সহ একটি প্রোডাকশন-রেডি অ্যান্ড্রয়েড টেমপ্লেট</string>
+    <string name="home_explore_posts">পোস্টগুলি দেখুন</string>
+    <string name="home_view_users">ব্যবহারকারীদের দেখুন</string>
+    <string name="home_app_settings">অ্যাপ সেটিংস</string>
+
+    <!-- Post List Screen -->
+    <string name="posts_subtitle">সব পোস্ট ব্রাউজ করুন</string>
+    <string name="post_by">ব্যবহারকারী #%1$d দ্বারা</string>
+    <string name="posts_empty">কোন পোস্ট উপলব্ধ নেই</string>
+    <string name="posts_empty_description">পোস্ট লোড করতে টেনে রিফ্রেশ করুন</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_author">লেখক</string>
+    <string name="post_content">বিষয়বস্তু</string>
+
+    <!-- User List Screen -->
+    <string name="users_subtitle">সব নিবন্ধিত ব্যবহারকারী</string>
+    <string name="user_email">ইমেইল: %1$s</string>
+    <string name="user_phone">ফোন: %1$s</string>
+    <string name="user_website">ওয়েবসাইট: %1$s</string>
+    <string name="users_empty">কোন ব্যবহারকারী উপলব্ধ নেই</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_language">ভাষা</string>
+    <string name="settings_language_description">আপনার পছন্দের ভাষা চয়ন করুন</string>
+    <string name="settings_about">সম্পর্কে</string>
+    <string name="settings_version">সংস্করণ %1$s</string>
+    <string name="settings_architecture">আর্কিটেকচার: MVVM + ক্লিন আর্কিটেকচার</string>
+    <string name="settings_features">বৈশিষ্ট্য: অফলাইন-ফার্স্ট, স্থানীয়করণ, টাইপ-সেফ নেভিগেশন</string>
+
+    <!-- Languages -->
+    <string name="language_english">English</string>
+    <string name="language_bangla">বাংলা (Bangla)</string>
+
+    <!-- Common UI Elements -->
+    <string name="loading">লোড হচ্ছে…</string>
+    <string name="retry">পুনরায় চেষ্টা করুন</string>
+    <string name="refresh">রিফ্রেশ</string>
+    <string name="back">পিছনে</string>
+    <string name="close">বন্ধ করুন</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="cancel">বাতিল</string>
+
+    <!-- Error Messages -->
+    <string name="error_generic">একটি ত্রুটি ঘটেছে</string>
+    <string name="error_network">নেটওয়ার্ক ত্রুটি। আপনার সংযোগ পরীক্ষা করুন।</string>
+    <string name="error_server">সার্ভার ত্রুটি। পরে আবার চেষ্টা করুন।</string>
+    <string name="error_unknown">একটি অপ্রত্যাশিত ত্রুটি ঘটেছে</string>
+    <string name="error_no_data">কোন ডেটা উপলব্ধ নেই</string>
+    <string name="error_load_failed">ডেটা লোড করতে ব্যর্থ</string>
+
+    <!-- Success Messages -->
+    <string name="success_refresh">ডেটা সফলভাবে রিফ্রেশ হয়েছে</string>
+    <string name="success_language_changed">ভাষা সফলভাবে পরিবর্তিত হয়েছে</string>
+
+    <!-- Offline Mode -->
+    <string name="offline_mode">অফলাইন মোড</string>
+    <string name="showing_cached_data">ক্যাশড ডেটা দেখানো হচ্ছে</string>
+    <string name="data_may_be_outdated">ডেটা পুরানো হতে পারে</string>
+</resources>
